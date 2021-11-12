@@ -1,4 +1,4 @@
-### [Tarea 02](t02/readme.md)
+### [Tarea 02](t02)
 
 Dado que se utilizó el mismo paquete de esta tarea para la tarea 02 se utilizó el mismo repositorio.
 

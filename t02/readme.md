@@ -31,7 +31,7 @@ Restricciones:
 
 ## Introducción
 
-
+En la robótica móvil es importante que un robot conozca el entorno de trabajo en el que se encuentra, por tanto, debe contar con sensores que sean capaces de retroalimentar al robot para que no realice movimientos tales que puedan causarle algún daño por colisiones con otros objetos. Dicha información debe ser proporcionada mediante paquetes que puedan ser interpretados, siendo un ejemplo de ello el patrón de publicador y suscriptor.
 
 ## Desarrollo
 
@@ -316,16 +316,22 @@ if __name__=='__main__':
 
 ## Conclusiones
 
-
+Con la realización de esta actividad se pudo aplicar nuevamente el concepto de publicador y suscriptor para realizar una actividad más compleja que requirió varias etapas de pruebas para llegar al programa final. Fue necesario investigar información acerca del LIDAR utilizado para conocer la forma de transmitir la información referente a las distancias del entorno del robot, lo cual se volvió una actividad un poco tediosa, pero al ubicar correctamente los tipos de datos que se deben manejar en el programa, implementarlo no llegó a ser tan complicado.
 
 ## Autor
 
 | Iniciales  | Descripción |
 | -:| - |
 | **AOJ** | Amilpa Olivera Joseph [GitHub profile](https://github.com/Josephamilpaolivera) |
-| **GSJF**  | Guzmán Silva Jesús Fernando [GitHub profile]() |
+| **GSJF**  | Guzmán Silva Jesús Fernando [GitHub profile](https://github.com/BlakeHayabusa) |
 | **TMA** | Talavera Montenegro Antonio [GitHub profile](https://github.com/atalaveram) |
 
 ## Referencias
 
-<a id="1">[1]</a> ROS Documentation. (2021, Jan. 15). *geometry_msgs/Twist Documentation* [Online]. Available: http://docs.ros.org/en/melodic/api/geometry_msgs/html/msg/Twist.html
+[[1]](docs/investigacion.md) ROBOTIS. (2021). *LDS-01* [Online]. Available: https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_01/
+
+[[2]](docs/investigacion.md) ROBOTIS. (2021). *Basic Operation* [Online]. Available: https://emanual.robotis.com/docs/en/platform/turtlebot3/basic_operation/
+
+[[3]](docs/investigacion.md) ROBOTIS. (2021). *Raspberry Pi Camera* [Online]. Available: https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_raspi_cam/
+
+[[4]](docs/investigacion.md) Ubiquity Robotics. (2019, Jan. 19). *raspicam_node* [Online]. Available: https://github.com/UbiquityRobotics/raspicam_node
